@@ -146,4 +146,4 @@ Setelah selesai, buat **Pull Request** ke branch `main` dan selesaikan merge con
 
 - Seluruh struktur data diimplementasikan **dari scratch** tanpa built-in Java collections
 - Bahasa yang digunakan: **Bahasa Indonesia / English** (keduanya diterima)
-- Tools perekaman yang disarankan: **OBS Studio** atau **Loom**
+- Dalam proses pengerjaan boleh menggunakan AI, dengan catatan bukan built-in IDE, atau auto completion
