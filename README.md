@@ -9,11 +9,11 @@ Dibangun menggunakan struktur data yang diimplementasikan secara manual dalam Ja
 
 | Student | Data Structure | Module Class | Key Methods |
 |---------|---------------|--------------|-------------|
-| S1 | Dynamic Array | `PatientRegistry.java` | `add`, `remove`, `findById`, `findByName`, `listAll`, `size`, `isEmpty` |
-| S2 | Queue (linked nodes) | `TreatmentQueue.java` | `enqueue`, `dequeue`, `peek`, `isEmpty`, `size`, `displayQueue` |
-| S3 | Stack (linked nodes) | `MedicalHistoryStack.java` | `push`, `pop`, `peek`, `isEmpty`, `size`, `displayHistory` |
-| S4 | HashMap (array+chaining) | `DoctorScheduleMap.java` | `addAppointment`, `getAppointments`, `removeDoctor`, `listDoctors`, `size` |
-| S5 | Deque (doubly-linked) | `PatientDeque.java` | `addFront`, `addRear`, `removeFront`, `removeRear`, `peekFront`, `peekRear`, `isEmpty`, `size`, `display` |
+| Azza Ummu  | Dynamic Array | `PatientRegistry.java` | `add`, `remove`, `findById`, `findByName`, `listAll`, `size`, `isEmpty` |
+| Apta Saniy | Queue (linked nodes) | `TreatmentQueue.java` | `enqueue`, `dequeue`, `peek`, `isEmpty`, `size`, `displayQueue` |
+| Naufal Maulid | Stack (linked nodes) | `MedicalHistoryStack.java` | `push`, `pop`, `peek`, `isEmpty`, `size`, `displayHistory` |
+| Zahran Hilal | HashMap (array+chaining) | `DoctorScheduleMap.java` | `addAppointment`, `getAppointments`, `removeDoctor`, `listDoctors`, `size` |
+| Muhammad Andreana  | Deque (doubly-linked) | `PatientDeque.java` | `addFront`, `addRear`, `removeFront`, `removeRear`, `peekFront`, `peekRear`, `isEmpty`, `size`, `display` |
 
 ---
 
