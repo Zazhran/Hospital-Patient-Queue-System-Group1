@@ -146,4 +146,4 @@ Setelah selesai, buat **Pull Request** ke branch `main` dan selesaikan merge con
 
 - Seluruh struktur data diimplementasikan **dari scratch** tanpa built-in Java collections
 - Bahasa yang digunakan: **Bahasa Indonesia / English** (keduanya diterima)
-- Dalam proses pengerjaan boleh menggunakan AI, dengan catatan bukan built-in IDE, atau auto completion
+- Dalam proses pengerjaan boleh menggunakan AI, dengan catatan bukan built-in IDE, atau auto completion.
