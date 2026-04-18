@@ -37,7 +37,10 @@ String patientId, doctorId, notes;
 ---
 
 ## 📦 Struktur Folder
+---
 
+
+```
 Hospital-Patient-Queue-System-Group1
 ├── shared
 │    ├── Patient.java
