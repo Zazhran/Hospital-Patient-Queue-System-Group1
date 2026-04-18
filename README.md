@@ -40,24 +40,24 @@ String patientId, doctorId, notes;
 
 Hospital-Patient-Queue-System-Group1
 ├── shared
-    ├── Patient.java
-    ├── Doctor.java
-    ├── Appointment.java
+│    ├── Patient.java
+│   ├── Doctor.java
+│    ├── Appointment.java
 ├── Student-1-[Azza Ummu]
-    ├── PatientRegistry.java       # S1 - Dynamic Array
-    ├── PatientRegistryDemo.java
+│    ├── PatientRegistry.java       # S1 - Dynamic Array
+│    ├── PatientRegistryDemo.java
 ├── Student-2-[Apta Saniy]
-    ├── TreatmentQueue.java        # S2 - Queue
-    ├── TreatmentQueueDemo.java
+│    ├── TreatmentQueue.java        # S2 - Queue
+│    ├── TreatmentQueueDemo.java
 ├── Student-3-[Naufal Maulid]
-    ├── MedicalHistoryStack.java   # S3 - Stack
-    ├── MedicalHistoryStackDemo.java
+│    ├── MedicalHistoryStack.java   # S3 - Stack
+│    ├── MedicalHistoryStackDemo.java
 ├── Student-4-[Zahran Hilal]
-    ├── DoctorScheduleMap.java     # S4 - HashMap
-    ├── DoctorScheduleMapDemo.java
+│    ├── DoctorScheduleMap.java     # S4 - HashMap
+│    ├── DoctorScheduleMapDemo.java
 ├── Student-5-[Muhammad Andreana]
-    ├── PatientDeque.java          # S5 - Deque
-    ├── PatientDequeDemo.java
+│    ├── PatientDeque.java          # S5 - Deque
+│    ├── PatientDequeDemo.java
 └── README.md                      # README File
 ```
 
