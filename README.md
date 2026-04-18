@@ -44,7 +44,7 @@ String patientId, doctorId, notes;
 Hospital-Patient-Queue-System-Group1
 ├── shared
 │    ├── Patient.java
-│   ├── Doctor.java
+│    ├── Doctor.java
 │    ├── Appointment.java
 ├── Student-1-[Azza Ummu]
 │    ├── PatientRegistry.java       # S1 - Dynamic Array
