@@ -6,7 +6,7 @@ public class Patient {
     int age;
     String ailment;
 
-    Patient(String id, String name, int age, String ailment) {
+    public Patient(String id, String name, int age, String ailment) {
         this.id      = id;
         this.name    = name;
         this.age     = age;

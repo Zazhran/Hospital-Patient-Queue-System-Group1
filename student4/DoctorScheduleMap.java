@@ -1,6 +1,8 @@
+
+
 public class DoctorScheduleMap {
     
-    static class Appointment {
+    public static class Appointment {
         String patientName;
         String time;
 
@@ -10,7 +12,7 @@ public class DoctorScheduleMap {
         }
     }
 
-    static class DoctorNode {
+    public static class DoctorNode {
         String doctorName;
         Appointment appointment;
         DoctorNode next;
