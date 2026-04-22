@@ -1,8 +1,8 @@
-
+package student4;
 
 public class DoctorScheduleMap {
     
-    public static class Appointment {
+    static class Appointment {
         String patientName;
         String time;
 
@@ -12,7 +12,7 @@ public class DoctorScheduleMap {
         }
     }
 
-    public static class DoctorNode {
+    static class DoctorNode {
         String doctorName;
         Appointment appointment;
         DoctorNode next;

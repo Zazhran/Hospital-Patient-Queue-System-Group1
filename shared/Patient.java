@@ -12,4 +12,8 @@ public class Patient {
         this.age     = age;
         this.ailment = ailment;
     }
+
+    public String getId(){
+        return this.id;
+    }
 }

@@ -15,20 +15,20 @@ public class DoctorScheduleMapDemo {
         Patient p2       = new Patient("P002", "Dewi", 25, "batuk");
         Patient p3       = new Patient("P003", "Eko", 40, "pusing");
 
-        Appointment appt1 = new Appointment(p1.id, doc1.id, "pemeriksaan rutin");
-        Appointment appt2 = new Appointment(p2.id, doc1.id, "kontrol lanjutan");
-        Appointment appt3 = new Appointment(p3.id, doc2.id, "konsultasi umum");
+        Appointment appt1 = new Appointment(p1.getId(), doc1.getId(), "pemeriksaan rutin");
+        Appointment appt2 = new Appointment(p2.getId(), doc1.getId(), "kontrol lanjutan");
+        Appointment appt3 = new Appointment(p3.getId(), doc2.getId(), "konsultasi umum");
 
         // masukkan ke map
-        DoctorScheduleMap.addAppointment(doc1.name, p1.id, appt1.notes);
-        DoctorScheduleMap.addAppointment(doc1.name, p2.id, appt2.notes);
-        DoctorScheduleMap.addAppointment(doc2.name, p3.id, appt3.notes);
+        DoctorScheduleMap.addAppointment(doc1.getName(), p1.getId(), appt1.getNotes());
+        DoctorScheduleMap.addAppointment(doc1.getName(), p2.getId(), appt2.getNotes());
+        DoctorScheduleMap.addAppointment(doc2.getName(), p3.getId(), appt3.getNotes());
 
         // demo semua method
         DoctorScheduleMap.listDoctors();
-        DoctorScheduleMap.getAppointments(doc1.name);
-        DoctorScheduleMap.removeDoctor(doc2.name);
-        DoctorScheduleMap.getAppointments(doc2.name);
+        DoctorScheduleMap.getAppointments(doc1.getName());
+        DoctorScheduleMap.removeDoctor(doc2.getName());
+        DoctorScheduleMap.getAppointments(doc2.getName());
         DoctorScheduleMap.showSize();
     }
 }

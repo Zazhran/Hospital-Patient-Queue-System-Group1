@@ -8,6 +8,13 @@ public class Doctor {
     public Doctor(String id, String name, String specialization) {
         this.id             = id;
         this.name           = name;
-        this.specialization = specialization;
+        this.Specialization = specialization;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+    public String getId(){
+        return this.id;
     }
 }

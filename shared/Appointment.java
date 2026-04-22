@@ -10,4 +10,7 @@ public class Appointment {
         this.doctorId   = doctorId;
         this.notes      = notes;
     }
+    public String getNotes(){
+        return this.notes;
+    }
 }
