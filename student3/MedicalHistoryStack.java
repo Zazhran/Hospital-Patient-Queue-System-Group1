@@ -23,14 +23,13 @@ public class MedicalHistoryStack {
     public void push(String data) {
         Node newNode = new Node(data);
         newNode.next = top;
-        top =newNode
+        top =newNode;
         size++;
-        System.out.println("Riwayat 
-ditambahkan: " + data);
+        System.out.println("Riwayat ditambahkan: " + data);
 
-
+    }
     public String pop() {
-        if (isEmpty))) {
+        if (isEmpty()) {
             return "Stack kosong!";
         }
         String removed = top.data;
@@ -61,17 +60,14 @@ ditambahkan: " + data);
     
     public void displayHistory() {
         if (isEmpty()) {
-            System.out.println("Tidak ada
-riwayat medis.");
+            System.out.println("Tidak ada riwayat medis.");
             return;
         }
         
-        System.out.prin1n("\n=== Riwayat
-Medis (Terbaru ke Lama) ===")
+        System.out.println("\n=== Riwayat Medis (Terbaru ke Lama) ===")
         Node temp =top;
-        While (temp !=null) {
-             System.out.prin1n("-" +
-temp.data);
+        while (temp !=null) {
+             System.out.println("-" + temp.data);
              temp = temp.next;
         }
     }
