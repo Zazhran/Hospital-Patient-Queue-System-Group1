@@ -1,3 +1,5 @@
+package student4;
+
 public class DoctorScheduleMap {
     
     static class Appointment {
@@ -115,27 +117,6 @@ public class DoctorScheduleMap {
 
     static void showSize() {
         System.out.println("\nTotal janji temu: " + size);
-    }
-
-
-    public static void main(String[] args) {
-        addAppointment("Andi", "P001", "Pemeriksaan rutin");
-        addAppointment("Andi", "P002", "Kontrol lanjutan");
-        addAppointment("Budi", "P003", "Konsultasi awal");
-
-        showSize();
-
-        listDoctors();
-
-        getAppointments("Andi");
-
-        removeDoctor("Budi");
-
-        getAppointments("Budi");
-
-        getAppointments("Pigeon");
-
-        showSize();
     }
 
 
