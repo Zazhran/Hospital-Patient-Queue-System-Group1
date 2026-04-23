@@ -16,4 +16,11 @@ public class Patient {
     public String getId(){
         return this.id;
     }
+
+    public String getName() {
+    }
+
+    public String toString() {
+        return "[" + id + "] " + name + ", umur + ", + age + ", keluhan: " + ailment;
+    }
 }
