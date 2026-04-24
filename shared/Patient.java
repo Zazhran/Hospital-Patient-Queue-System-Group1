@@ -21,8 +21,17 @@ public class Patient {
         return this.name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public String getAilment() {
+        return ailment;
+    }
+
    @Override
     public String toString() {
-        return "[" + id + "] " + name + ", umur: " + age + ", keluhan: " + ailment;
+        
+        return "[" + id + "] " + name + ", umur + " + age + ", keluhan: " + ailment;
     }
 
