@@ -1,3 +1,5 @@
+import shared.Patient;
+
 public class PatientDeque {
 
     private class Node {
