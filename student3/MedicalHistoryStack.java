@@ -1,4 +1,4 @@
-import java.io.StringWriter;
+
 
 class Node {
      String data;
@@ -64,7 +64,7 @@ public class MedicalHistoryStack {
             return;
         }
         
-        System.out.println("\n=== Riwayat Medis (Terbaru ke Lama) ===")
+        System.out.println("\n=== Riwayat Medis (Terbaru ke Lama) ===");
         Node temp =top;
         while (temp !=null) {
              System.out.println("-" + temp.data);
@@ -72,6 +72,9 @@ public class MedicalHistoryStack {
         }
     }
 }
+
+
+
 
              
 
