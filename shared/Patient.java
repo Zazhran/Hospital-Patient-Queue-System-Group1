@@ -20,6 +20,14 @@ public class Patient {
     public String getName() {
     }
 
+    public int getAge() {
+        return age;
+    }
+
+    public String getAilment() {
+        return ailment;
+    }
+
     public String toString() {
         return "[" + id + "] " + name + ", umur + ", + age + ", keluhan: " + ailment;
     }
