@@ -18,6 +18,7 @@ public class Patient {
     }
 
     public String getName() {
+        return this.name;
     }
 
     public int getAge() {
@@ -29,6 +30,6 @@ public class Patient {
     }
 
     public String toString() {
-        return "[" + id + "] " + name + ", umur + ", + age + ", keluhan: " + ailment;
+        return "[" + id + "] " + name + ", umur + " + age + ", keluhan: " + ailment;
     }
 }
