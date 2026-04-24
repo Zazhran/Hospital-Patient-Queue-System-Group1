@@ -1,41 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("=== DEMO PROGRAM ===");
-
+        // 1. Siapkan Registrasi (Lemari Arsip)
         PatientRegistry registry = new PatientRegistry();
+        
+        // 2. Tambah Data Pasien ke dalam Registrasi
+        registry.add(new Patient ("P001", "Budi", 30, "Demam"));
+        registry.add(new Patient ("P002", "Siti Nuraini", 28, "Sakit kepala"));
 
-        // tambah data
-        registry.add(new Patient("P001", "Budi". 30, "Demam"));
-        registry.add(new Patient("P002", "Siti Nuraini, 28, "Sakit Kepala"));
-        registry.add(new Patient("P003", "Ahmad Fauzi", 35, "Flu"));
+        System.out.println("=== DEMO PROGRAM PASIEN ===");
+        System.out.println("Total Pasien: " registry.size())
 
-        // Total
-        System.out.print1n("\nTotal pasien: " + registry.size());
-
-        // Cari
-        System.out.print1n("\nCari P002:");
-        Patient p = registry.findById("P002"),
-        if (p !=null) {
-            System.out.print1n("Ditemukan: " + p");
-        }
-    
-        // Hapus
-        System.out.print1n("\nHapus P001:");
-        If (Registry.remove("P001")) {
-            System.out.print1n("Berhasil Dihapus");
+        // 3. Demo Cari Pasien
+        Patient p = registry.findById("P002");
+        if (p != null) {
+            System.out.println("Cari P002 Ketemu! Nama: " + p.getName());
         }
 
-        // Cek Lagi
-        System.out.print1n("/nCari lagi P001:");
-        if (Registry.findById("P001") == null) {
-            System.out.print1n("Tidak ditemukan");
-        }
-
-        // Tampilkan Semua
-        System.out.print1n("\nSemua data:");
-        registry.listAll();
+        // 4. Demo Hapus Pasien
+        registry.remove("P001");
+        System.out.println("\nSetelah P001 dihapus, sisa pasien:");
+        registry.listAll():
     }
 }
-
-    

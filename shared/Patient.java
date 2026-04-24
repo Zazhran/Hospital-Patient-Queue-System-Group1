@@ -13,7 +13,7 @@ public class Patient {
         this.ailment = ailment;
     }
 
-    public String getId(){
+    public String getId() {
         return this.id;
     }
 
@@ -29,7 +29,9 @@ public class Patient {
         return ailment;
     }
 
+   @Override
     public String toString() {
+        
         return "[" + id + "] " + name + ", umur + " + age + ", keluhan: " + ailment;
     }
-}
+

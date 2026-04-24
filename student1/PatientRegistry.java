@@ -1,74 +1,61 @@
+import java.util.ArrayList;
+
 public class PatientRegistry {
-    private Patient[] patients;
-    private int size;
-    private int capacity;
+    // Membuat list untuk menampung banyak objek Patient
+    private ArrayList<Patient> listPasien;
 
+    // Cunstructor: Menyiapkan list saat objek Registry dibuat
     public PatientRegistry() {
-
-        capacity = 10;
-        patients = new Patient[capacity];
-        size = 0;
+        this.listPasien = new ArrayList<>();
     }
 
-    private void resize() {
-        capacity *=2;
-        Patient[] newPatient = newPatient[capacity];
-        for (int i = 0; i < size; i++) {
-            new Patients[i] = patients[i];
-        }
-        patients = newPatient;
+    // 1. Tambah Pasien
+    public void add(Patient p) {
+        listPasien.add(p);
     }
 
-    public void add(Patient patient) {
-        if (size == capacity) {
-            resize();
-        }
-        patient[size++] = patient;
-    }
-
-    public boolean remove(String id) {
-        for (int i = 0, i < size; i++) {
-            if (patients[i].getid().equals(id)) {
-                for (int j = i; j < size - 1; j++) {
-                    patients[j] = patients[j + 1];
-                }
-                patients[size - 1] = null;
-                size--;
-                return true;
-            }
-        }
-        return false;
-    }
-
-    public Patient findById(String id) {
-        for (int i = 0; i < size; i ++) {
-            if (Patients[i].getId().equals(id)) {
-                return patients [i];
-            }
-        }
-        return null;
-    }
-
-    public void listAll() {
-        if (size == 0) {
-            System.out.println("Data kosong.");
-            return;
-        }
-
-        System.out.println("=== Daftar Pasien (" + size + " data) ===");
-        for (int i = 0; i < size; i++)
-            System.out.println(patients[i]);
-        } 
-    }
-   
+    // 2. Cek Total Pasien
     public int size() {
-        return size;
+        return listPasien.size();
+    }
+
+    // 3. Cari Pasien berdasarkan ID
+    public Patient findById(String id) {
+        for (Patient p : listPasien) {
+            // Mengambil id dari Patient.java dan membandingkannya
+            if (p.getId().equalsIgnoreCase(id)) {
+                return p; // Ketemu!
+            }
+        }
+        return null; // Tidak ketemu
+    }
+
+    // 4. Hapus Pasien berdasarkan ID
+    public boolean remove (String id) {
+        for (int i = 0; i < listPasien.size(); i++) {
+            if (listPasien.get(i).getId().equalsIgnoreCase(id)) {
+                listPasien.remove(i);
+                return true; // Berhasil dihapus
+            }
+        }
+        return false; // Gagal (ID tidak ada)
+    }
+
+    // 5. Tampilkan Semua Pasien
+    public void listAll() {
+        if (listPasien.isEmpty()) {
+            System.out.println("Data pasien kosong.");
+        } else {
+            for (Patient p : listPasien) {
+                // Ini akan memanggil metode toString() yang ada di  Patient.java
+                System.out.println(p);
+            }
+        }
     }
 }
-  
+                
     
 
-      
     
         
 
