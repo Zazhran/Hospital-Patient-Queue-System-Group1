@@ -1,24 +1,24 @@
-public class Main {
+package student1;
+
+import shared.Patient;
+
+public class PatientRegistryDemo {
     public static void main(String[] args) {
-        // 1. Siapkan Registrasi (Lemari Arsip)
+
         PatientRegistry registry = new PatientRegistry();
-        
-        // 2. Tambah Data Pasien ke dalam Registrasi
-        registry.add(new Patient ("P001", "Budi", 30, "Demam"));
-        registry.add(new Patient ("P002", "Siti Nuraini", 28, "Sakit kepala"));
 
-        System.out.println("=== DEMO PROGRAM PASIEN ===");
-        System.out.println("Total Pasien: " registry.size())
+        registry.add(new Patient("P001", "Budi Santoso", 35, "demam"));
+        registry.add(new Patient("P002", "Siti Nuraini", 28, "sakit kepala"));
+        registry.add(new Patient("P003", "Ahmad Fauzi", 52, "nyeri dada"));
 
-        // 3. Demo Cari Pasien
-        Patient p = registry.findById("P002");
-        if (p != null) {
-            System.out.println("Cari P002 Ketemu! Nama: " + p.getName());
-        }
+        System.out.println("Total: " + registry.size());
 
-        // 4. Demo Hapus Pasien
+        registry.findById("P002");
+
         registry.remove("P001");
-        System.out.println("\nSetelah P001 dihapus, sisa pasien:");
-        registry.listAll():
+
+        registry.findById("P001");
+
+        registry.listAll();
     }
 }
