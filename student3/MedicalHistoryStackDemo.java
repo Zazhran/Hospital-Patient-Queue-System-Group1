@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class MedicalHistoryStackDemo {
     public static void main(String[] args)
     {
         MedicalHistoryStack history = new MedicalHistoryStack();
