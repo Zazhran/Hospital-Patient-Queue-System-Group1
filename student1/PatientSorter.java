@@ -1,6 +1,7 @@
 package student1;
 import shared.Patient;
 // Menggunakan Selection Sort
+// Menambahkan algoritma Insertion Sort untuk sorting umur
 
 public class PatientSorter {
     private Patient[] patients;
