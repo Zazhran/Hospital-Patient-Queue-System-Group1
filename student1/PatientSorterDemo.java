@@ -1,5 +1,6 @@
 package student1;
 import shared.Patient;
+// Menambahkan data pasien tiruan untuk pengujian program
 
 public class PatientSorterDemo {
     public static void main(String[] args) {
