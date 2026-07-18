@@ -1,5 +1,6 @@
 package student1;
 import shared.Patient;
+// Menggunakan Selection Sort
 
 public class PatientSorter {
     private Patient[] patients;
