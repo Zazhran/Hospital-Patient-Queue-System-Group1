@@ -1,4 +1,4 @@
-# 🏥 Hospital Patient Queue System - Modul Student 1 Selesai
+# 🏥 Hospital Patient Queue System 
 
 Proyek ini adalah sistem berbasis konsol untuk mengelola pasien, antrian perawatan, dan jadwal dokter di sebuah klinik kecil.
 Dibangun menggunakan struktur data yang diimplementasikan secara manual dalam Java — tanpa menggunakan built-in library seperti `ArrayList` atau `HashMap`.
