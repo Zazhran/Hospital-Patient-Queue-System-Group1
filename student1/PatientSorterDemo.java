@@ -25,5 +25,7 @@ public class PatientSorterDemo {
         // Uji coba 3: Jalankan Insertion Sort (Urut Umur Muda-Tua)
         sorter.sortByAge();
         sorter.printList("Hasil Urut Umur - Insertion Sort (Muda ke Tua)");
+
+        // Kode selesai di-refactor dan siap di-merge
     }
 }
