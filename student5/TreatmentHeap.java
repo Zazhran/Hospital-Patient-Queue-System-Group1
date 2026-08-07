@@ -1,5 +1,3 @@
-package student5;
-
 import shared.Patient;
 
 public class TreatmentHeap {
